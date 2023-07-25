@@ -5,8 +5,10 @@
 
 int main(int argc, char *argv[]) {
 	
+	/**Esta constante guarda el dato maximo para el while**/
 	const int TOPE_MAXIMO= 100;
 	
+	/**Esta variable de tipo de entero incializa un numero en 0 para pintarlo en pantalla hasta donde diga la constante**/
 	int numero = 0;
 	
 	printf("%i", numero++);//0 1
@@ -29,7 +31,7 @@ int main(int argc, char *argv[]) {
 		printf("\n%i", numero--);
 	}
 	
-	printf("")
+	printf("");
 	
 	return 0;
 }
